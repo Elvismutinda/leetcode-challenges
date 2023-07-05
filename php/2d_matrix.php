@@ -12,11 +12,13 @@ class Solution {
             return false;
         }
 
+        // matrix dimensions
         $m = count($matrix);
         $n = count($matrix[0]);
 
-        $left = 0;
-        $right = $m * $n - 1;
+        // initializing binary search bounds(left and right pointers)
+        $left = 0; // leftmost index
+        $right = $m * $n - 1; // rightmost index
 
         while ($left <= $right) {
             $mid = (int)(($left + $right) / 2);
