@@ -18,3 +18,7 @@
 
 
 grep -E '^\([[:digit:]]{3}\) [[:digit:]]{3}-[[:digit:]]{4}$|^[[:digit:]]{3}-[[:digit:]]{3}-[[:digit:]]{4}$' phoneNumbersTest.txt
+
+# Another solution
+
+grep -E '^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$' phoneNumbersTest.txt
