@@ -9,13 +9,10 @@ Table: Employee
 +-------------+------+
 id is the primary key column for this table.
 Each row of this table contains information about the salary of an employee.
- 
 
 Find the second highest salary from the Employee table. If there is no second highest salary, return null.
 
 The result format is in the following example.
-
- 
 
 Example 1:
 
