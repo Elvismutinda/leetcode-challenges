@@ -37,3 +37,4 @@ awk 'NR==10' tenthLine.txt
 
 head -n 10 tenthLine.txt | tail -n 1
 
+# when testing solution 3 on leetcode it failed but on my bash terminal it works fine. 
